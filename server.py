@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-# barehands: move things on your screen with your bare hands.
-# Copyright (C) 2026 Jared Rhodenizer
+# jumuuah: move things on your screen with your bare hands.
+# Copyright (C) 2026 Jared Rhodenizer X baw9latech
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published
@@ -28,8 +28,8 @@ Endpoints:
   GET  /state                  the render page mirrors the scene from here
   POST /cmd                    board commands (your AI -> the board)
   GET  /config                 the barehands.json config (name + orbs)
-  GET  /tree?orb=N             a notes orb's folder tree — read-only, JAILED
-  GET  /note?f=N/<rel>         one note's text — read-only, JAILED
+  GET  /tree?orb=N             a notes orb's folder tree — read-only, RAILED
+  GET  /note?f=N/<rel>         one note's text — read-only, RAILED
   GET  /props                  the media airlock as a browsable tree
   GET  /orb                    your assistant's live state (the ring reads it)
 
